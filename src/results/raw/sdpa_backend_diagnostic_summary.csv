@@ -1,0 +1,5 @@
+config,implementation,sdpa_backend,use_mask,median_prefill_ms,mean_prefill_ms,peak_memory_gb
+eager_mask,eager,none,True,597.6303999777883,597.5467667449266,4.597286224365234
+sdpa_auto_mask,sdpa,auto,True,926.1064000893384,926.2052999498943,4.89457368850708
+sdpa_auto_nomask,sdpa,auto,False,927.3311998695135,927.3990332925072,4.89457368850708
+sdpa_math_nomask,sdpa,math,False,928.8165001198649,928.2964999632289,4.89457368850708

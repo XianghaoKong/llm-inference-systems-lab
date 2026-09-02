@@ -1,0 +1,15 @@
+config,implementation,sdpa_backend,use_mask,run,prefill_ms,peak_memory_gb,status,error
+eager_mask,eager,none,True,1.0,597.2274001687765,4.597286224365234,success,
+eager_mask,eager,none,True,2.0,597.6303999777883,4.597286224365234,success,
+eager_mask,eager,none,True,3.0,597.7825000882149,4.597286224365234,success,
+sdpa_auto_mask,sdpa,auto,True,1.0,925.6890998221934,4.89457368850708,success,
+sdpa_auto_mask,sdpa,auto,True,2.0,926.1064000893384,4.89457368850708,success,
+sdpa_auto_mask,sdpa,auto,True,3.0,926.8203999381512,4.89457368850708,success,
+sdpa_auto_nomask,sdpa,auto,False,1.0,927.3311998695135,4.89457368850708,success,
+sdpa_auto_nomask,sdpa,auto,False,2.0,927.2885001264513,4.89457368850708,success,
+sdpa_auto_nomask,sdpa,auto,False,3.0,927.5773998815566,4.89457368850708,success,
+sdpa_math_nomask,sdpa,math,False,1.0,928.8165001198649,4.89457368850708,success,
+sdpa_math_nomask,sdpa,math,False,2.0,926.7426999285817,4.89457368850708,success,
+sdpa_math_nomask,sdpa,math,False,3.0,929.33029984124,4.89457368850708,success,
+sdpa_flash_nomask,sdpa,flash,False,,,,failed,No available kernel. Aborting execution.
+sdpa_flash_mask,sdpa,flash,True,,,,failed,No available kernel. Aborting execution.
